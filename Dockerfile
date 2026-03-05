@@ -1,5 +1,5 @@
 # ---- Build krabby from source (glibc release won't run on Alpine) ----
-FROM docker.io/library/rust:1.87-alpine3.23 AS krabby-builder
+FROM docker.io/library/rust:1.93-alpine3.23 AS krabby-builder
 RUN apk add --no-cache musl-dev
 RUN cargo install krabby --version 0.3.0 --root /out
 
