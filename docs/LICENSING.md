@@ -18,4 +18,4 @@ Commercial licenses are available for organizations that want alternative terms,
 If your organization exceeds the thresholds above and requires terms beyond what the AGPL-3.0-only license provides, reach out for a commercial license:
 
 - Email: sofmeright@gmail.com
-- GitHub: [github.com/prplanit/oh-ci](https://github.com/prplanit/oh-ci)
+- GitHub: [github.com/PrPlanIT/oh-CI](https://github.com/PrPlanIT/oh-CI)
