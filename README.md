@@ -4,6 +4,13 @@
 
 Oh CI is an Alpine based image maintained for bash/sh style CI in a container environment. Just the essentials, like trees, and Pokémon because it is not safe out there in this world if you do not have at least one.
 
+<!-- sf:project:start -->
+<!-- sf:project:end -->
+<!-- sf:badges:start -->
+<!-- sf:badges:end -->
+<!-- sf:image:start -->
+<!-- sf:image:end -->
+
 ---
 
 ## What's Inside
@@ -79,7 +86,7 @@ initContainers:
 
 | Image | What It's For |
 |-------|---------------|
-| [`prplanit/ansible-oci`](https://hub.docker.com/r/prplanit/ansible-oci) | Ansible playbooks, Python, collections, the whole orchestra |
+| [`hlhd/ansible`](https://hub.docker.com/r/hlhd/ansible) | Ansible playbooks, Python, collections, the whole orchestra |
 | [`prplanit/stagefreight`](https://hub.docker.com/r/prplanit/stagefreight) | Declarative CI/CD — detect, build, scan, and release container images |
 | [`alpine/k8s`](https://hub.docker.com/r/alpine/k8s) | kubectl, helm, and the Kubernetes toolkit |
 
