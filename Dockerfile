@@ -1,10 +1,10 @@
 # ---- Build krabby from source (glibc release won't run on Alpine) ----
-FROM docker.io/library/rust:1.93-alpine3.23 AS krabby-builder
+FROM docker.io/library/rust:1.93.1-alpine3.23 AS krabby-builder
 RUN apk add --no-cache musl-dev
 RUN cargo install krabby --version 0.3.0 --root /out
 
 # ---- Runtime image ----
-FROM docker.io/library/alpine:3.23.3
+FROM docker.io/library/alpine:3.23.5
 
 LABEL maintainer="PrPlanIT <precisionplanit@gmail.com>" \
       org.opencontainers.image.title="oh-ci" \
