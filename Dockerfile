@@ -4,7 +4,7 @@ RUN apk add --no-cache musl-dev
 RUN cargo install krabby --version 0.3.0 --root /out
 
 # ---- Runtime image ----
-FROM docker.io/library/alpine:3.23.5
+FROM docker.io/library/alpine:3.23.7
 
 LABEL maintainer="PrPlanIT <precisionplanit@gmail.com>" \
       org.opencontainers.image.title="oh-ci" \
