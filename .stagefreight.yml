@@ -45,7 +45,7 @@ metadata:
   description:
     - CI helper image with the tooling a pipeline expects preinstalled.
     - Container image bundling the utilities CI jobs reach for, so pipelines stop installing the same tools on every run.
-  license: MIT
+  license: AGPL-3.0-only
   org: PrPlanIT
   title: oh-CI
   topics:
